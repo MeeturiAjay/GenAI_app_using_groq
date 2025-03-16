@@ -1,18 +1,36 @@
 # Gen AI Application with Groq
 
-This Streamlit-based AI chatbot leverages the **Groq API** and **LangChain** to provide human-like responses in a conversational format. It supports multi-session chat history, dynamic chat titling, and a user-friendly interface with a sidebar for managing previous conversations.
+This **Generative AI chatbot** is built using **Streamlit**, **LangChain**, and **Groq API** to provide natural, human-like conversational interactions. It supports **multi-session chat history**, a user-friendly **sidebar for chat management**, and **clean AI response formatting**.
 
-## Features
+## 🚀 Features
 
-- **Conversational AI**: Uses Groq API with LangChain for generating human-like responses.
-- **Multi-Session Chat**: Allows users to maintain multiple chat histories with dynamic titles.
-- **Optimized UI**: Sidebar for managing previous chats with auto-truncated chat titles.
-- **Clean Response Processing**: Removes unnecessary AI-generated metadata for a seamless experience.
-- **Lightweight & Efficient**: Implements a **deque-based** chat storage system for optimized memory usage.
+✅ **Conversational AI** – Provides natural, human-like responses using Groq API.  
+✅ **Multi-Session Chat** – Allows users to store and access previous chat histories.  
+✅ **Optimized UI** – Features a sidebar for chat selection with truncated chat titles.  
+✅ **Efficient Chat Storage** – Uses `deque` for optimized memory management.  
+✅ **Custom Styling** – CSS-enhanced UI for an interactive experience.  
 
-## Installation
+---
 
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/MeeturiAjay/GenAI_app_using_groq.git
-   cd GenAI_app_using_groq
+## 📸 Screenshots  
+
+### 🏠 Home Screen  
+Displays the application interface when first launched.  
+![Home Screen](Screenshot%202025-03-16%20120226.png)
+
+### 💬 Chat Interface  
+Shows real-time interaction between user and AI.  
+![Chat Interface](Screenshot%202025-03-16%20120309.png)
+
+### 📂 Sidebar with Chat History  
+Allows users to manage multiple chat sessions.  
+![Sidebar](Screenshot%202025-03-16%20120444.png)
+
+---
+
+## 🔧 Installation Guide  
+
+1️⃣ **Clone the Repository**  
+```sh
+git clone https://github.com/MeeturiAjay/GenAI_app_using_groq.git
+cd GenAI_app_using_groq
