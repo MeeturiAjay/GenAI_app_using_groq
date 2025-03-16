@@ -14,5 +14,5 @@ This Streamlit-based AI chatbot leverages the **Groq API** and **LangChain** to 
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/MeeturiAjay/GenAI_app_using_groq.git
+   cd GenAI_app_using_groq
