@@ -8,7 +8,30 @@ This **Generative AI chatbot** is built using **Streamlit**, **LangChain**, and 
 ✅ **Multi-Session Chat** – Allows users to store and access previous chat histories.  
 ✅ **Optimized UI** – Features a sidebar for chat selection with truncated chat titles.  
 ✅ **Efficient Chat Storage** – Uses `deque` for optimized memory management.  
-✅ **Custom Styling** – CSS-enhanced UI for an interactive experience.  
+✅ **Custom Styling** – CSS-enhanced UI for an interactive experience. 
+
+---
+
+## 🛠 Tech Stack Used
+
+### 🎨 Frontend & UI Framework
+- **Streamlit** – Used to build the interactive web application interface.
+
+### ⚙️ Backend & Processing
+- **LangChain** – Manages chat prompts and model interactions.
+- **Groq API** – Provides the AI model for generating responses.
+- **Python** – The core programming language used for development.
+
+### 🗄 Data Handling & Storage
+- **`deque` (from `collections`)** – Optimized data structure for efficient chat history management.
+
+### 🔐 Environment Management
+- **`dotenv`** – Loads environment variables securely (e.g., API keys).
+
+### 🎨 Styling & Customization
+- **CSS (inside Streamlit markdown)** – Custom styles for the sidebar and UI elements.
+
+This stack ensures smooth AI-powered chatbot interactions with multi-session support and an optimized user experience. 🚀
 
 ---
 
